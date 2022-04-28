@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Rock+Salt&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    padding-top: 2.5rem;
+}
+
+#hero {
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../../images/hess9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 47rem;
+}
+
+.nav-bar, .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero h1 {
+    color: #f9f9f9;
+    text-align: center;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 800;
+	padding-top: 15%;
+}
+
+.hero_icons {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #f9f9f9;
+	margin-top: 2rem;
+	grid-gap: 1.5rem;
+}
+
+nav {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: .7rem;
+	text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+  	display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+  	padding: 0 1.3rem 0 0;
+      }
+
+nav a:hover, nav a:hover:visited, .footer-nav a:hover, .footer-nav a:hover:visited {
+	text-decoration: underline;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #dd0303ba;
+  opacity: 0.7;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+}
+.gotopbtn:hover {
+  background: #ae2727;
+  opacity: 0.8;
+}
+
+/*OUR COMPANY SECTION*/
+
+#our-company {
+  	background-color: #2C6E49;
+  	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  	font-weight: 400;
+  	Font-size: 1.25rem;
+	line-height: 1.5;
+  	align-items: center;
+  	padding: 5rem;
+}
+
+#our-company .container {
+  	display: flex;
+  	justify-content: space-between;
+}
+
+.section1_img {
+	background-image: url("../../images/hess19.jpg");
+  	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+  	height: auto;
+}
+
+.section1_text {
+  	color: #f9f9f9;
+ 	width: 50%;
+  
+}
+
+.section1_text h2 {
+  	margin-bottom: 1rem;
+}
+
+
+/*HIGHLIGHTS SECTION*/
+
+#highlights {
+	margin-top: 2.5rem;
+}
+
+#highlights h2, #letter-to-shareholders h2, #global-operations h2, #sustainability h2, .ds-logo h1, .ds-color-palette h1, .ds-typography h1 {
+  	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  	font-weight: 800;
+	color: #2C6E49;
+  	Font-size: 2rem;
+}
+
+#highlights p, footer p {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 0.8rem;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #4C956C;
+    color: #f9f9f9;
+    text-align: left;
+}
+
+.styled-table th, #letter-to-shareholders, #global-operations, #global-operations-2, #global-operations-3, #sustainability, .sustainability-2, #sustainability-3, .sustainability-photo2 p, #board-directors, #corporate-officers, .ds-logo, .ds-color-palette, .ds-typography {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.styled-table th, .styled-table td {
+    padding: 8px 9px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4C956C;
+}
+
+.styled-table tbody tr.active-row {
+    background-color: #EECE59;
+}
+
+
+/*LETTER TO SHAREHOLDERS SECTION*/
+#letter-to-shareholders, #sustainability {
+	margin-top: 2rem;
+}
+
+.letter-section1, .letter-section3 {
+	display: flex;
+	grid-gap: 3rem;
+	text-align: center;
+}
+
+.letter-section1 .box {
+	width: 400%;
+	background-color: #B08F1B;	
+}
+
+.letter-section1 .text, .letter-section1 p, .letter-section2, #global-operations, #global-operations-2, #global-operations-3, #sustainability, .sustainability-2, #sustainability-3 p, .sustainability-photo2 p {
+	padding: 3rem 0 3rem 0;
+	line-height: 1.6;
+}
+
+.letter-section1 p, .letter-section2, #global-operations p, #global-operations-2 p, #global-operations-3 p, #sustainability p, .sustainability-2 p, #sustainability-3 p {
+	font-size: 1rem;
+	column-count: 2;
+	margin-top: 2rem;
+	text-align: left;
+	column-gap: 4rem;
+}
+
+.letter-section2 {
+	column-count: 3;
+	background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+	color: #f9f9f9;
+	align-content: center;
+	margin-bottom: 5rem;
+}
+
+.letter-section2 p{
+	padding: 2rem;
+}
+
+.letter-section3 {
+	justify-content: space-between;
+}
+
+.letter-section3 img {
+	width: 30%;
+	margin-bottom: 5rem;
+}
+
+.letter-section1 .box2 {
+	width: 400%;
+	background-color: #B08F1B;
+}
+
+/*GLOBAL OPERATIONS SECTION*/
+#global-operations, #global-operations-3 {
+	background-color: #0B0B0B;
+	color: #f9f9f9;
+	margin-top: 5rem;	
+}
+
+#global-operations h2, #board-directors h2 {
+	color: #f9f9f9;
+	margin-bottom: 3rem;
+}
+
+#global-operations h3, #global-operations-2 h3, #global-operations-3 h3, .sustainability-2 h3, .ds-logo h3, .ds-color-palette h3, .ds-typography h3 {
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#global-operations p, #global-operations-2 p, #global-operations-3 p {
+	padding: 0 15rem 4rem 15rem;
+	column-gap: 4rem;
+}
+
+#global-operations-2 {
+	background-color: #f9f9f9;
+	color: #0B0B0B;
+	margin-top: 0;
+}
+
+#global-operations-3 {
+	margin: 0;
+}
+
+
+/*SUSTAINABILITY SECTION*/
+
+#sustainability .box3, .sustainability-2 .box4 {
+	background-color: #4C956C;
+	height: 4rem;
+	width: 65rem;
+	margin-bottom: 3rem;
+}
+
+#sustainability p {
+	margin-top: 1rem;
+	padding-right: 27rem; 
+	column-gap: 4rem;
+}
+
+.sustainability-photo, .sustainability-photo2 {
+	background-image: url("../../images/hess10.jpg");
+  	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  	height: 33rem;
+}
+
+.sustainability-2 h3 {
+	text-align: center;
+}
+
+.sustainability-2 p {
+	column-count: 3;
+	column-gap: 4rem;
+}
+
+.sustainability-2 .box4 {
+	height: 1.5rem;
+	margin-bottom: -1rem;
+	width: 64%;
+	background-color: #B08F1B;
+	
+}
+
+#sustainability-3 {
+	background-color: #4C956C;
+	color: #f9f9f9;
+	display: flex;
+	align-items: center;
+	padding: 5rem 9rem 3rem 9rem;
+	grid-gap: 6rem;
+}
+
+#sustainability-3 p {
+	column-count: 1;
+}
+
+#sustainability-3 img {
+	width: 30rem;
+	margin-bottom: 1rem;
+}
+
+.safety-health p {
+	column-count: 2;
+}
+
+.safety-health .text {
+	display: flex;
+	align-items: center;
+	padding: 3rem 2rem 3rem 2rem;
+	grid-gap: 6rem;
+	
+}
+
+.safety-health img {
+	width: 30rem;
+}
+
+.safety-health {
+	margin-bottom: -6rem;
+}
+
+.sustainability-photo2 {
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess14.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  	height: 33rem;
+}
+
+.sustainability-photo2 p{
+	color: #f9f9f9;
+	padding-top: 9rem;
+	padding-left: 7rem;
+	padding-right: 60rem;
+}
+
+/* BOARD OF DIRECTORS SECTION*/
+
+#board-directors, #corporate-officers {
+	margin-top: 5rem;
+	padding: 2rem 0 5rem 0;
+	background-color: #B08F1B;
+	color: #f9f9f9;
+}
+
+.directors-photos, .corporate-photos {
+	display: flex;
+	justify-content: center;
+	grid-gap: 7rem;
+}
+
+.directors-photos .photo1, .directors-photos .photo2, .corporate-photos .photo1, .corporate-photos .photo2 {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 29.375rem;
+	width: 23.688rem;
+	padding: 20rem 0 0 2rem
+}
+
+.directors-photos .photo1 {
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess17.jpg");
+}
+
+.directors-photos .photo2 {
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess15.jpg");
+
+}
+
+.directors-photos h4, .directors-photos p, .corporate-photos h4, .corporate-photos p {
+	font-size: 1rem;
+}
+
+/* CORPORATE OFFICERS SECTION*/
+
+#corporate-officers {
+	margin:0;
+	background-color: #f9f9f9;
+}
+
+#corporate-officers h2 {
+	color: #0B0B0B;
+	margin-bottom: 3rem;
+}
+
+.corporate-photos .photo1 {
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess16.jpg");
+}
+
+.corporate-photos .photo2 {
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../../images/hess12.jpg");
+
+}
+
+/* FOOTER SECTION*/
+
+footer {
+	background-color: #0B0B0B;
+	padding: 1.5rem 0 2rem 0;
+}
+
+.footer-nav {
+	justify-content: center;
+	column-gap: 4rem;
+}
+
+footer p {
+	color: #f9f9f9;
+	text-align: center;
+	font-size: 0.5rem;	
+}
+
+/* DESIGN SYSTEM STYLES*/
+
+/* LOGO PAGE*/
+
+#design-hero .nav-bar a{
+	color: #0B0B0B;
+}
+
+
+.ds-logo .flex, .ds-color-palette .flex, .ds-color-palette .colors, .ds-typography .flex {
+	margin-top: 4rem;
+	display: flex;
+	align-items: center;
+	padding: 0 4rem 4rem 4rem;
+}
+
+.ds-logo h1, .ds-color-palette h1, .ds-typography h1 {
+	margin-top: 2rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.ds-logo .flex img {
+	width: 70%;
+}
+
+.ds-logo p, .ds-color-palette p, .ds-typography p {
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+.ds-logo h3, .ds-color-palette h3, .ds-typography h3 {
+	text-align: start;
+}
+
+.ds-logo span {
+	font-weight: 600;
+}
+
+.ds-logo .clearspace {
+	margin-left: -10rem;
+}
+
+/* COLOR PALETTE PAGE*/
+
+.ds-color-palette .colors {
+	grid-gap: 1.5rem;
+	margin-top: 0;
+	
+}
+
+.ds-color-palette .colors p, .dont p {
+	font-size: 0.7rem;
+}
+
+.ds-color-palette .colors span, .dont span {
+	font-weight: 600;
+}
+
+.color1, .color2, .color3, .color4 {
+	height: 17.375rem;
+	width: 8.125rem;
+}
+
+.color1 {
+	background-color: #2C6E49;
+}
+
+.color2 {
+	background-color: #4C956C;
+}
+
+.color3 {
+	background-color: #EECE59;
+}
+
+.color4 {
+	background-color: #B08F1B;
+}
+
+.logo-variety {
+	display: flex;
+	grid-gap: 1rem;
+	flex-flow: row nowrap;
+}
+
+.logo-variety img {
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+.primary-color {
+	text-align: start;
+	padding: 0 40rem 3rem 0;
+}
+
+.do-not .fa-circle-xmark {
+	color: red;
+	position: absolute;
+}
+
+.dont p {
+	margin-top: -4rem;
+	text-align: center;
+}
+
+/* TYPOGRAPHY PAGE*/
+
+.font-weight-1, .font-weight-1a {
+	font-weight: 800;
+}
+
+.font-weight-1a{
+	font-size: 3rem;
+}
+
+.font-weight-2, .font-weight-2a {
+	font-weight: 600;
+}
+
+.font-weight-2a {
+	font-size: 2rem;
+	margin-top: 2rem
+}
+
+.font-weight-3, .font-weight-3a {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.font-weight-3a {
+	font-size: 3rem;
+}
+
+.font-weight-4, .font-weight-4a {
+	font-weight: 500;
+}
+
+.font-weight-4a {
+	font-size: 1rem;
+	margin-top: 2rem;
+	line-height: 1.4;
+}
+
+.ds-typography .flex {
+	padding: 0 4rem 4rem 4rem;
+	justify-content: center;
+	grid-gap: 10rem;
+}
+
+.heading-example {
+	padding: -5rem 7rem 3rem 1rem;
+	
+}
+
+

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Rock+Salt&display=swap');
+
+//color variables
+$primary: #2C6E49;
+$secondary: #EECE59;
+$terciary: #B08F1B;
+$base: #F9F9F9;
+$contrast: #070707;
+
+//size variables
+$unit: 1rem;
+
+//font-family variable
+$family: "Montserrat", Helvetica, sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    padding-top: 2.5rem;
+}
+
+#hero {
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url(../../images/hess9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 47rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero h1 {
+    color: $base;
+    text-align: center;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 800;
+  	align-items: center;
+}
+
+nav {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: .7rem;
+	text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+  	display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+  	padding: 0 1.3rem 0 0;
+      }
+
+#our-company {
+  	background-color: $primary;
+  	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  	font-weight: 400;
+  	Font-size: $unit*1.25;
+  	align-items: center;
+  	padding: 5rem;
+}
+
+#our-company .container {
+  	display: flex;
+  	justify-content: space-between;
+}
+
+.section1photo {
+  	width: 463px;
+  	height: 270px;
+  	background-color: white;
+}
+
+.section1_text {
+  	color: $base;
+ 	width: 50%;
+  
+}
+
+.section1_text h2 {
+  	margin-bottom: 1rem;
+}
+
+
